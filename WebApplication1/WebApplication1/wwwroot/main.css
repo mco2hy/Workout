@@ -1,0 +1,27 @@
+﻿.yukseklik {
+    height: 500px;
+}
+
+.menu {
+    width: 30%;
+    float: left;
+    background: aquamarine;
+    height: 100%;
+}
+
+.anasayfa {
+    width: 70%;
+    float: left;
+    background: beige;
+    height: 100%;
+}
+
+.header {
+    background: blue;
+    height: 10%;
+}
+
+.content {
+    background: blueviolet;
+    height: 90%;
+}

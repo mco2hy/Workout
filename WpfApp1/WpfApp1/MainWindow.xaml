@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF9F31A4"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="Parametre1" HorizontalAlignment="Left" Height="46" Margin="333,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="Parametre2" HorizontalAlignment="Left" Height="46" Margin="543,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button Content="Topla" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_Topla" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Label x:Name="Sonuc" Content="" HorizontalAlignment="Left" Margin="147,356,0,0" VerticalAlignment="Top" Height="53" Width="516" FontSize="20" HorizontalContentAlignment="Center" FontStyle="Italic" FontWeight="Bold" Foreground="White">
+            <Label.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFFF00DC"/>
+                </RadialGradientBrush>
+            </Label.Background>
+        </Label>
+        <Button Content="Çıkart" HorizontalAlignment="Left" Margin="231,122,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_Cikart" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="Böl" HorizontalAlignment="Left" Margin="447,122,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_Bol" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="Çarp" HorizontalAlignment="Left" Margin="662,122,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_Carp" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="Üstü" HorizontalAlignment="Left" Margin="231,216,0,0" VerticalAlignment="Top" Width="336" FontSize="24" Height="47" Click="Button_Ustu" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="Ortalama" HorizontalAlignment="Left" Margin="231,286,0,0" VerticalAlignment="Top" Width="336" FontSize="24" Height="47" Click="Button_Ortalama" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="En Büyük" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_EnBuyuk" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <Button Content="En Küçük" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Width="120" FontSize="24" Height="47" Click="Button_EnKucuk" FontWeight="Bold" FontStyle="Italic" Background="#FFDDDDDD"/>
+        <TextBox x:Name="Parametre3" HorizontalAlignment="Left" Height="46" Margin="116,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="20"/>
+    </Grid>
+</Window>
